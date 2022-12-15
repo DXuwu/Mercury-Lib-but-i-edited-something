@@ -106,12 +106,33 @@ gameTab:Button{
     end
 }
 
+
+gameTab:Button{
+    Name = "深海石头房【伟大的老六夜提供】",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/iCherryKardes/Doors/main/Floor%202%20Mod"))()
+    end
+}
+
+
+
+gameTab:Button{
+    Name = " 101房【伟大的老六夜提供】",
+    Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/DXuwu/replicator-lol/main/abc.txt"))()
+    end
+}
+
 local ziliaoTab = GUI:Tab{
     Name = "资料"
 }
 
 ziliaoTab:Button{
     Name = "作者DX"
+}
+
+ziliaoTab:Button{
+    Name = "QQ群"
 }
 ziliaoTab:Button{
     Name= "若被倒卖请立即联系我"
